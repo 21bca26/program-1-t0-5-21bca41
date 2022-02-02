@@ -11,9 +11,9 @@ void main()
     while(re!=0)
     {
        a=re%10;
-       e=a*a*a;
+       //e=a*a*a;
        re=re/10;
-       sum=sum+e;
+      // sum=sum+e;
     }
        if(no==sum)
 	 printf("%d is an armstrong number:",no);
